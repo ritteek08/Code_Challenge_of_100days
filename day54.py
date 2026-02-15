@@ -9,3 +9,5 @@ n=int(input("number of inputs: "))
 for i in range(n):
     element = input("Enter element: ")
     my_list.append(element)
+print(my_list)
+print(list(my_list))
