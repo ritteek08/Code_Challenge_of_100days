@@ -1,4 +1,7 @@
 #Count lines in file in python
+f = open("test.txt", "r")
+lines = f.readlines()
+
 f=  open("test.txt", "r")
 lines = f.readlines()
 line_count = len(lines)
